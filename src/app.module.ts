@@ -8,6 +8,7 @@ import { User } from './users/user.entity';
 import { ReportsController } from './reports/reports.controller';
 import { ReportsModule } from './reports/reports.module';
 import { Report } from './reports/report.entity';
+import { UsersService } from './users/users.service';
 
 @Module({
   imports:
@@ -20,7 +21,7 @@ import { Report } from './reports/report.entity';
       }), 
       UsersModule,
       ReportsModule],
-  controllers: [AppController, UsersController, ReportsController],
+  controllers: [AppController],
   providers: [AppService],
 })
 export class AppModule { }

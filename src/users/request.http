@@ -12,12 +12,13 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-   "id": "valiesdfa",
+   "id": 1,
    "name": "Yannick Zahinda",
-   "sex":"5",
+   "sex": "Male",
+   "age": 24,
    "title":"Software Developer",
    "department":"IT Services",
    "employment_type":"Full time",
-   "email":"ymulikuzagmail.com",
+   "email":"ymulikuza@gmail.com",
    "password":"Naruto$$0511!"
 }
