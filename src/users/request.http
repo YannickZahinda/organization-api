@@ -1,0 +1,23 @@
+### Check all users / employees
+
+GET http://localhost:3000/users
+
+### Check one user / employee
+
+GET http://localhost:3000/users/2
+
+### Create a user / employee
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+   "id": "valiesdfa",
+   "name": "Yannick Zahinda",
+   "sex":"5",
+   "title":"Software Developer",
+   "department":"IT Services",
+   "employment_type":"Full time",
+   "email":"ymulikuzagmail.com",
+   "password":"Naruto$$0511!"
+}
