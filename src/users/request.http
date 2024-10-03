@@ -12,13 +12,21 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-   "id": 1,
-   "name": "Yannick Zahinda",
-   "sex": "Male",
-   "age": 24,
-   "title":"Software Developer",
-   "department":"IT Services",
-   "employment_type":"Full time",
-   "email":"ymulikuza@gmail.com",
-   "password":"Naruto$$0511!"
+   "name": "Fundi",
+   "age": 23,
+   "sex": "Female",
+   "title":"CTO",
+   "department":"IT Solutions",
+   "employment_type":"Contract",
+   "email":"zah@gmail.com",
+   "password":"1234456"
 }
+
+### FInd a particular user with ID
+
+GET http://localhost:3000/auth/3
+
+
+### Find all users with a particular email
+
+GET http://localhost:3000/auth?email=yma@gmail.com
